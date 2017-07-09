@@ -14,6 +14,9 @@
 		BA228B1D1F11F3FD00924F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA228B1B1F11F3FD00924F78 /* LaunchScreen.storyboard */; };
 		BA228B281F11F3FD00924F78 /* AnimatiotnViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA228B271F11F3FD00924F78 /* AnimatiotnViewDemoTests.swift */; };
 		BA228B331F11F3FD00924F78 /* AnimatiotnViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA228B321F11F3FD00924F78 /* AnimatiotnViewDemoUITests.swift */; };
+		BA228B441F11F4D400924F78 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA228B431F11F4D400924F78 /* AnimationView.swift */; };
+		BA228B471F11F68400924F78 /* LineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA228B461F11F68400924F78 /* LineTextField.swift */; };
+		BA228B4A1F11F6DF00924F78 /* PrefixHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA228B491F11F6DF00924F78 /* PrefixHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		BA228B2E1F11F3FD00924F78 /* AnimatiotnViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatiotnViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA228B321F11F3FD00924F78 /* AnimatiotnViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatiotnViewDemoUITests.swift; sourceTree = "<group>"; };
 		BA228B341F11F3FD00924F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA228B431F11F4D400924F78 /* AnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		BA228B461F11F68400924F78 /* LineTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineTextField.swift; sourceTree = "<group>"; };
+		BA228B491F11F6DF00924F78 /* PrefixHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefixHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		BA228B111F11F3FD00924F78 /* AnimatiotnViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BA228B481F11F6DF00924F78 /* Header */,
+				BA228B451F11F68400924F78 /* LineTextField */,
+				BA228B401F11F43000924F78 /* AnimationView */,
 				BA228B121F11F3FD00924F78 /* AppDelegate.swift */,
 				BA228B141F11F3FD00924F78 /* ViewController.swift */,
 				BA228B161F11F3FD00924F78 /* Main.storyboard */,
@@ -123,6 +132,30 @@
 				BA228B341F11F3FD00924F78 /* Info.plist */,
 			);
 			path = AnimatiotnViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		BA228B401F11F43000924F78 /* AnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				BA228B431F11F4D400924F78 /* AnimationView.swift */,
+			);
+			path = AnimationView;
+			sourceTree = "<group>";
+		};
+		BA228B451F11F68400924F78 /* LineTextField */ = {
+			isa = PBXGroup;
+			children = (
+				BA228B461F11F68400924F78 /* LineTextField.swift */,
+			);
+			path = LineTextField;
+			sourceTree = "<group>";
+		};
+		BA228B481F11F6DF00924F78 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				BA228B491F11F6DF00924F78 /* PrefixHeader.swift */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +293,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA228B151F11F3FD00924F78 /* ViewController.swift in Sources */,
+				BA228B441F11F4D400924F78 /* AnimationView.swift in Sources */,
 				BA228B131F11F3FD00924F78 /* AppDelegate.swift in Sources */,
+				BA228B471F11F68400924F78 /* LineTextField.swift in Sources */,
+				BA228B4A1F11F6DF00924F78 /* PrefixHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
